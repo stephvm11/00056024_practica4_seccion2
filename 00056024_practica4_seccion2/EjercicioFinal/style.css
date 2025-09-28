@@ -1,0 +1,46 @@
+body{
+    font-family: "Poppins", Arial;
+    font-style: normal;
+    background-color: #696FC7;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    gap: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+header {
+    text-align: center; 
+    margin-left: 50px;
+    color: #cfd1f4;
+}
+section {
+    margin-left: 10px;
+    text-align: left;
+    background-color: #cb93cf;
+    padding: 100px;
+    border-radius: 50px;
+    color: #F5EFE6
+}
+#aceptarBtn{
+    padding: 5px;
+    font-weight: 600; 
+    background-color: #F5EFE6;
+    color: #cb93cf;
+    border-radius: 10px;
+    border-color: #F5EFE6;
+    border-style: solid;
+}
+article>h4, #mensaje{
+    color: #696FC7;
+}
+#selectorDias{
+    background-color: #F5EFE6;
+    color: #cb93cf;
+    border-radius: 10px;
+    border-color: #F5EFE6;
+    border-style: solid;
+    padding: 5px;
+    font-weight: 600;
+}

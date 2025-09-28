@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Final - Guía 4</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Recordatorio semanal</h1>
+        <h4>Toma tus actividades un día a la vez.</h4>
+    </header>
+    <section>
+        <article>
+            
+            <label for="selectorDias">Selecciona el día que deseas para obtener tu recordatorio:</label>
+            <select id="selectorDias" name="dia">
+                <option value="">Días</option>
+                <option value="Lunes">Lunes</option>
+                <option value="Martes">Martes</option>
+                <option value="Miercoles">Miércoles</option>
+                <option value="Jueves">Jueves</option>
+                <option value="Viernes">Viernes</option>
+                <option value="Sabado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+            </select>
+            <button id="aceptarBtn">Aceptar</button>
+        </article>
+        <article>
+            <h4>Recordatorio: </h4>
+            <p id="mensaje">---</p>
+        </article>
+    </section>
+</body>
+</html>
