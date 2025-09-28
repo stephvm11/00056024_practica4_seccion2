@@ -1,48 +1,49 @@
-body{
-    font-family: "Poppins", Arial;
-    font-style: normal;
-    background-color: #696FC7;
-    box-sizing: border-box;
-    display: flex;
-    align-items:center;
-    height: 100vh;
-    gap: 100px;
-    padding: 20px;
-    margin: 0px;
+body {
+  font-family: "Poppins", Arial;
+  font-style: normal;
+  background-color: #696fc7;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  gap: 100px;
+  padding: 20px;
+  margin: 0px;
 }
 header {
-    text-align: center; 
-    margin-left: 50px;
-    color: #cfd1f4;
+  text-align: center;
+  margin-left: 50px;
+  color: #cfd1f4;
 }
 section {
-    margin-left: 10px;
-    text-align: left;
-    background-color: #cb93cf;
-    padding: 100px;
-    border-radius: 50px;
-    color: #F5EFE6
+  margin-left: 10px;
+  text-align: left;
+  background-color: #cb93cf;
+  padding: 100px;
+  border-radius: 50px;
+  color: #f5efe6;
 }
-#aceptarBtn{
-    padding: 5px;
-    font-weight: 600; 
-    background-color: #F5EFE6;
-    color: #cb93cf;
-    border-radius: 10px;
-    border-color: #F5EFE6;
-    border-style: solid;
-    cursor: pointer;
+#aceptarBtn {
+  padding: 5px;
+  font-weight: 600;
+  background-color: #f5efe6;
+  color: #cb93cf;
+  border-radius: 10px;
+  border-color: #f5efe6;
+  border-style: solid;
+  cursor: pointer;
 }
-article>h4, #mensaje{
-    color: #696FC7;
+article > h4,
+#mensaje {
+  color: #696fc7;
 }
-#selectorDias{
-    background-color: #F5EFE6;
-    color: #cb93cf;
-    border-radius: 10px;
-    border-color: #F5EFE6;
-    border-style: solid;
-    padding: 5px;
-    font-weight: 600;
-    cursor: pointer;
+#selectorDias {
+  background-color: #f5efe6;
+  color: #cb93cf;
+  border-radius: 10px;
+  border-color: #f5efe6;
+  border-style: solid;
+  padding: 5px;
+  font-weight: 600;
+  cursor: pointer;
 }
