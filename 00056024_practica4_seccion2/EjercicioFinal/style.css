@@ -31,6 +31,7 @@ section {
     border-radius: 10px;
     border-color: #F5EFE6;
     border-style: solid;
+    cursor: pointer;
 }
 article>h4, #mensaje{
     color: #696FC7;
@@ -43,4 +44,5 @@ article>h4, #mensaje{
     border-style: solid;
     padding: 5px;
     font-weight: 600;
+    cursor: pointer;
 }
