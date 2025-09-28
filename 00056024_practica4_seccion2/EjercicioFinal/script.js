@@ -17,9 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return dia + ". " + actividad;
     }
 
-    const diaSeleccionado = selectorDia.value;  
-    const actividadSeleccionada = listaActividades[diaSeleccionado];
-
     botonAceptar.addEventListener('click', () => {
         const diaSeleccionado = selectorDia.value;
         const actividadSeleccionada = listaActividades[diaSeleccionado];
